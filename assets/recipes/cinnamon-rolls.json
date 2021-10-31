@@ -3,16 +3,16 @@
     "@graph":[
        {
           "@type":"WebSite",
-          "@id":"https://lovetobeinthekitchen.com/#website",
-          "url":"https://lovetobeinthekitchen.com/",
-          "name":"Love to be in the Kitchen",
-          "description":"",
+          "@id":"https://gatheringdreams.com/#website",
+          "url":"https://gatheringdreams.com/",
+          "name":"Gathering Dreams",
+          "description":"Live your dream life doing what you love",
           "potentialAction":[
              {
                 "@type":"SearchAction",
                 "target":{
                    "@type":"EntryPoint",
-                   "urlTemplate":"https://lovetobeinthekitchen.com/?s={search_term_string}"
+                   "urlTemplate":"https://gatheringdreams.com/?s={search_term_string}"
                 },
                 "query-input":"required name=search_term_string"
              }
@@ -21,70 +21,159 @@
        },
        {
           "@type":"ImageObject",
-          "@id":"https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/#primaryimage",
+          "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#primaryimage",
           "inLanguage":"en-US",
-          "url":"https://lovetobeinthekitchen.com/wp-content/uploads/2016/08/Spooky-Cookies-e1602623935930.jpg",
-          "contentUrl":"https://lovetobeinthekitchen.com/wp-content/uploads/2016/08/Spooky-Cookies-e1602623935930.jpg",
-          "width":700,
-          "height":1050,
-          "caption":"Spooky Cookies"
+          "url":"https://gatheringdreams.com/wp-content/uploads/2018/09/scary-halloween-monsters-bites-square.jpg",
+          "contentUrl":"https://gatheringdreams.com/wp-content/uploads/2018/09/scary-halloween-monsters-bites-square.jpg",
+          "width":1000,
+          "height":1000,
+          "caption":"These spooky little monsters are more cute than scary! They are super easy to make, vegan, healthy and delicious and are perfect as Halloween treats! Who doesn't love Halloween spiders and bats?"
        },
        {
           "@type":"WebPage",
-          "@id":"https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/#webpage",
-          "url":"https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/",
-          "name":"Spooky Cookies - Love to be in the Kitchen",
+          "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#webpage",
+          "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/",
+          "name":"Scary Halloween Monsters Bites - Gathering Dreams",
           "isPartOf":{
-             "@id":"https://lovetobeinthekitchen.com/#website"
+             "@id":"https://gatheringdreams.com/#website"
           },
           "primaryImageOfPage":{
-             "@id":"https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/#primaryimage"
+             "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#primaryimage"
           },
-          "datePublished":"2016-09-08T12:00:41+00:00",
-          "dateModified":"2021-10-23T20:35:09+00:00",
+          "datePublished":"2018-09-13T19:53:10+00:00",
+          "dateModified":"2019-03-07T19:08:08+00:00",
           "author":{
-             "@id":"https://lovetobeinthekitchen.com/#/schema/person/e00e8beac9645b6bb9b2fd2259c1e4de"
+             "@id":"https://gatheringdreams.com/#/schema/person/ecc6c28efea18128fc068fda2d4f5b17"
           },
+          "description":"These spooky little monsters are more cute than scary! They are super easy to make, vegan, healthy and delicious and are perfect as Halloween treats!",
           "breadcrumb":{
-             "@id":"https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/#breadcrumb"
+             "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#breadcrumb"
           },
           "inLanguage":"en-US",
           "potentialAction":[
              {
                 "@type":"ReadAction",
                 "target":[
-                   "https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/"
+                   "https://gatheringdreams.com/scary-halloween-monsters-bites/"
                 ]
              }
           ]
        },
        {
           "@type":"BreadcrumbList",
-          "@id":"https://lovetobeinthekitchen.com/2016/09/08/spooky-cookies/#breadcrumb",
+          "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#breadcrumb",
           "itemListElement":[
              {
                 "@type":"ListItem",
                 "position":1,
-                "name":"Spooky Cookies"
+                "name":"Scary Halloween Monsters Bites"
              }
           ]
        },
        {
           "@type":"Person",
-          "@id":"https://lovetobeinthekitchen.com/#/schema/person/e00e8beac9645b6bb9b2fd2259c1e4de",
-          "name":"becky",
-          "image":{
-             "@type":"ImageObject",
-             "@id":"https://lovetobeinthekitchen.com/#personlogo",
-             "inLanguage":"en-US",
-             "url":"https://secure.gravatar.com/avatar/23b1922c78f57dbf37e8e6959014f153?s=96&d=identicon&r=g",
-             "contentUrl":"https://secure.gravatar.com/avatar/23b1922c78f57dbf37e8e6959014f153?s=96&d=identicon&r=g",
-             "caption":"becky"
-          },
+          "@id":"https://gatheringdreams.com/#/schema/person/ecc6c28efea18128fc068fda2d4f5b17",
+          "name":"Sara @ Gathering Dreams",
           "sameAs":[
-             "https://lovetobeinthekitchen.com"
+             "https://gatheringdreams.com",
+             "https://www.facebook.com/GatheringDreamsBlog/"
           ],
-          "url":"https://lovetobeinthekitchen.com/author/becky/"
+          "url":"https://gatheringdreams.com/author/satrezgmail-com/"
+       },
+       {
+          "@context":"http://schema.org/",
+          "@type":"Recipe",
+          "name":"Scary Monsters Bites",
+          "author":{
+             "@type":"Person",
+             "name":"Sara @ Gathering Dreams"
+          },
+          "description":"These spooky little monsters are more cute than scary! They are super easy to make, healthy and delicious and are perfect as vegan Halloween treats!",
+          "datePublished":"2018-09-13T19:53:10+00:00",
+          "image":[
+             "https://gatheringdreams.com/wp-content/uploads/2018/09/scary-halloween-monsters-bites-square.jpg",
+             "https://gatheringdreams.com/wp-content/uploads/2018/09/scary-halloween-monsters-bites-square-500x500.jpg",
+             "https://gatheringdreams.com/wp-content/uploads/2018/09/scary-halloween-monsters-bites-square-500x375.jpg",
+             "https://gatheringdreams.com/wp-content/uploads/2018/09/scary-halloween-monsters-bites-square-480x270.jpg"
+          ],
+          "recipeYield":[
+             "16",
+             "16 scary monsters"
+          ],
+          "prepTime":"PT30M",
+          "recipeIngredient":[
+             "3/4 cup (95g) peanuts",
+             "1 cup (200g) medjool dates, pitted",
+             "2 tablespoons cocoa powder (vegan)",
+             "4 tablespoons peanut butter",
+             "1/3 cup (30g) gluten-free rolled oats",
+             "4  Licorice bars",
+             "32  Candy eyeballs"
+          ],
+          "recipeInstructions":[
+             {
+                "@type":"HowToStep",
+                "text":"Pulse the pitted dates in a food processor or blender for a couple of minutes, until they form a smooth paste.",
+                "name":"Pulse the pitted dates in a food processor or blender for a couple of minutes, until they form a smooth paste.",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-0"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Add oats, cocoa powder, peanut butter, peanuts, and mix. If the mix is a bit dry, add a couple of tablespoons of water to make it a bit stickier (for tips and trick, read the full recipe here).",
+                "name":"Add oats, cocoa powder, peanut butter, peanuts, and mix. If the mix is a bit dry, add a couple of tablespoons of water to make it a bit stickier (for tips and trick, read the full recipe here).",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-1"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Use your hands to roll into 1-inch balls.",
+                "name":"Use your hands to roll into 1-inch balls.",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-2"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"While the balls are still soft and sticky, press two candy eyeballs into each ball.",
+                "name":"While the balls are still soft and sticky, press two candy eyeballs into each ball.",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-3"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Cut the licorice bars into thin strips. Cut the bats wings using round cutters, and the spider legs (6 per spider) using a knife.",
+                "name":"Cut the licorice bars into thin strips. Cut the bats wings using round cutters, and the spider legs (6 per spider) using a knife.",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-4"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Press into the cookie ball. If the licorice is too soft, you can use a toothpick to make a small hole in the balls before pressing the wings or legs.",
+                "name":"Press into the cookie ball. If the licorice is too soft, you can use a toothpick to make a small hole in the balls before pressing the wings or legs.",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-5"
+             },
+             {
+                "@type":"HowToStep",
+                "text":"Place the scary monsters balls into the fridge to firm up for about 15-30 minutes.",
+                "name":"Place the scary monsters balls into the fridge to firm up for about 15-30 minutes.",
+                "url":"https://gatheringdreams.com/scary-halloween-monsters-bites/#wprm-recipe-3223-step-0-6"
+             }
+          ],
+          "aggregateRating":{
+             "@type":"AggregateRating",
+             "ratingValue":"5",
+             "ratingCount":"4"
+          },
+          "recipeCategory":[
+             "Dessert",
+             "Snack"
+          ],
+          "keywords":"Vegan Halloween Treats",
+          "nutrition":{
+             "@type":"NutritionInformation",
+             "calories":"98 kcal",
+             "servingSize":"1 serving"
+          },
+          "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#recipe",
+          "isPartOf":{
+             "@id":"https://gatheringdreams.com/scary-halloween-monsters-bites/#webpage"
+          },
+          "mainEntityOfPage":"https://gatheringdreams.com/scary-halloween-monsters-bites/#webpage"
        }
     ]
  }
